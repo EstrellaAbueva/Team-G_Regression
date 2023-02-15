@@ -45,6 +45,8 @@
             this.fWrist = new System.Windows.Forms.TextBox();
             this.Calculate = new System.Windows.Forms.Button();
             this.Clear = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.bfCount = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -185,6 +187,7 @@
             this.Calculate.TabIndex = 15;
             this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // Clear
             // 
@@ -196,11 +199,32 @@
             this.Clear.UseVisualStyleBackColor = true;
             this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(10, 328);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(68, 20);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Body Fat:";
+            // 
+            // bfCount
+            // 
+            this.bfCount.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bfCount.Location = new System.Drawing.Point(84, 317);
+            this.bfCount.Name = "bfCount";
+            this.bfCount.Size = new System.Drawing.Size(136, 44);
+            this.bfCount.TabIndex = 18;
+            this.bfCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(386, 416);
+            this.Controls.Add(this.bfCount);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.Calculate);
             this.Controls.Add(this.fWrist);
@@ -245,5 +269,7 @@
         private TextBox fWrist;
         private Button Calculate;
         private Button Clear;
+        private Label label9;
+        private Label bfCount;
     }
 }
