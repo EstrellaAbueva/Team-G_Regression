@@ -29,8 +29,7 @@ namespace Regression.Classes
 
         public double CalculateRegression()
         {
-            double regression = 0;
-            regression = -33.25799117 +( (0.068165796 * _age) + (-0.119440533 * _weight) + (-0.403802076 * _neck) + (0.917884996 * _abdomen) 
+            double regression = -33.25799117 + ( (0.068165796 * _age) + (-0.119440533 * _weight) + (-0.403802076 * _neck) + (0.917884996 * _abdomen) 
                             + (0.221959759 * _thigh) + (0.55313935 * _forearm) + (-1.532401078 * _wrist));
             
             return regression;
