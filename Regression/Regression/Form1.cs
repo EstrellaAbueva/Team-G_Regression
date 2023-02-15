@@ -16,7 +16,7 @@ namespace Regression
         public Form1()
         {
             InitializeComponent();
-            regressionMethod = new RegressionMethod(age, weight, neck, abdomen, thigh, forearm, wrist);
+            regressionMethod = new RegressionMethod();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -51,7 +51,7 @@ namespace Regression
             forearm = Convert.ToDouble(fForearm.Text);
             wrist = Convert.ToDouble(fWrist.Text);
             
-            bfCount.Text = regressionMethod.CalculateRegression().ToString();
+            bfCount.Text = regressionMethod.CalculateRegression(age, weight, neck, abdomen, thigh, forearm, wrist).ToString();
         }
     }
 }
