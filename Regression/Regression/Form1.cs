@@ -16,5 +16,16 @@ namespace Regression
         {
 
         }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            fAge.ResetText();
+            fWeight.ResetText();
+            fNeck.ResetText();
+            fAbdomen.ResetText();
+            fThigh.ResetText();
+            fForearm.ResetText();
+            fWrist.ResetText();
+        }
     }
 }
