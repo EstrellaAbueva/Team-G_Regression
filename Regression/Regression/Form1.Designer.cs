@@ -123,11 +123,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(144, 33);
+            this.label8.Location = new System.Drawing.Point(84, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 25);
+            this.label8.Size = new System.Drawing.Size(180, 25);
             this.label8.TabIndex = 7;
-            this.label8.Text = "BODY FAT";
+            this.label8.Text = "Body Fat Prediction";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // fAge
