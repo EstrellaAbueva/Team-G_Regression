@@ -41,7 +41,8 @@ namespace Regression
             forearm = Convert.ToDouble(fForearm.Text);
             wrist = Convert.ToDouble(fWrist.Text);
             
-            bfCount.Text = regressionMethod.CalculateRegression(age, weight, neck, abdomen, thigh, forearm, wrist).ToString();
+            var bmi = regressionMethod.CalculateRegression(age, weight, neck, abdomen, thigh, forearm, wrist);
+            bfCount.Text = Math.Round(bmi, 4).ToString();
         }
     }
 }
