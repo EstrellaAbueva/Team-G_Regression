@@ -18,17 +18,7 @@ namespace Regression
             InitializeComponent();
             regressionMethod = new RegressionMethod();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void Clear_Click(object sender, EventArgs e)
         {
             fAge.ResetText();
@@ -52,11 +42,6 @@ namespace Regression
             wrist = Convert.ToDouble(fWrist.Text);
             
             bfCount.Text = regressionMethod.CalculateRegression(age, weight, neck, abdomen, thigh, forearm, wrist).ToString();
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
