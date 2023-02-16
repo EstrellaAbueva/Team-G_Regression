@@ -58,7 +58,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(51, 130);
+            this.label1.Location = new System.Drawing.Point(51, 118);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 23);
             this.label1.TabIndex = 0;
@@ -68,7 +68,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(51, 165);
+            this.label2.Location = new System.Drawing.Point(51, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 23);
             this.label2.TabIndex = 1;
@@ -79,7 +79,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(49, 200);
+            this.label3.Location = new System.Drawing.Point(49, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(148, 23);
             this.label3.TabIndex = 2;
@@ -89,7 +89,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(52, 235);
+            this.label4.Location = new System.Drawing.Point(52, 223);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 23);
             this.label4.TabIndex = 0;
@@ -100,7 +100,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(52, 270);
+            this.label5.Location = new System.Drawing.Point(52, 258);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(145, 23);
             this.label5.TabIndex = 4;
@@ -110,7 +110,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(48, 305);
+            this.label6.Location = new System.Drawing.Point(48, 293);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(149, 23);
             this.label6.TabIndex = 5;
@@ -120,7 +120,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(53, 340);
+            this.label7.Location = new System.Drawing.Point(53, 328);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(144, 23);
             this.label7.TabIndex = 6;
@@ -140,7 +140,7 @@
             // 
             // fAge
             // 
-            this.fAge.Location = new System.Drawing.Point(212, 130);
+            this.fAge.Location = new System.Drawing.Point(212, 118);
             this.fAge.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fAge.Name = "fAge";
             this.fAge.Size = new System.Drawing.Size(124, 27);
@@ -148,7 +148,7 @@
             // 
             // fWeight
             // 
-            this.fWeight.Location = new System.Drawing.Point(212, 165);
+            this.fWeight.Location = new System.Drawing.Point(212, 153);
             this.fWeight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fWeight.Name = "fWeight";
             this.fWeight.Size = new System.Drawing.Size(124, 27);
@@ -156,7 +156,7 @@
             // 
             // fNeck
             // 
-            this.fNeck.Location = new System.Drawing.Point(212, 200);
+            this.fNeck.Location = new System.Drawing.Point(212, 188);
             this.fNeck.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fNeck.Name = "fNeck";
             this.fNeck.Size = new System.Drawing.Size(124, 27);
@@ -164,7 +164,7 @@
             // 
             // fAbdomen
             // 
-            this.fAbdomen.Location = new System.Drawing.Point(212, 235);
+            this.fAbdomen.Location = new System.Drawing.Point(212, 223);
             this.fAbdomen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fAbdomen.Name = "fAbdomen";
             this.fAbdomen.Size = new System.Drawing.Size(124, 27);
@@ -172,7 +172,7 @@
             // 
             // fThigh
             // 
-            this.fThigh.Location = new System.Drawing.Point(212, 270);
+            this.fThigh.Location = new System.Drawing.Point(212, 258);
             this.fThigh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fThigh.Name = "fThigh";
             this.fThigh.Size = new System.Drawing.Size(124, 27);
@@ -180,7 +180,7 @@
             // 
             // fForearm
             // 
-            this.fForearm.Location = new System.Drawing.Point(212, 305);
+            this.fForearm.Location = new System.Drawing.Point(212, 293);
             this.fForearm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fForearm.Name = "fForearm";
             this.fForearm.Size = new System.Drawing.Size(124, 27);
@@ -188,7 +188,7 @@
             // 
             // fWrist
             // 
-            this.fWrist.Location = new System.Drawing.Point(212, 340);
+            this.fWrist.Location = new System.Drawing.Point(212, 328);
             this.fWrist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fWrist.Name = "fWrist";
             this.fWrist.Size = new System.Drawing.Size(124, 27);
