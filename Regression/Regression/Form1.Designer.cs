@@ -217,27 +217,27 @@
             // titleBackground
             // 
             this.titleBackground.BackColor = System.Drawing.Color.DarkViolet;
-            this.titleBackground.Location = new System.Drawing.Point(-25, -24);
+            this.titleBackground.Location = new System.Drawing.Point(-25, -2);
             this.titleBackground.Name = "titleBackground";
-            this.titleBackground.Size = new System.Drawing.Size(437, 120);
+            this.titleBackground.Size = new System.Drawing.Size(437, 98);
             this.titleBackground.TabIndex = 19;
             this.titleBackground.TabStop = false;
             // 
             // dividerColor
             // 
             this.dividerColor.BackColor = System.Drawing.Color.DarkViolet;
-            this.dividerColor.Location = new System.Drawing.Point(12, 383);
+            this.dividerColor.Location = new System.Drawing.Point(48, 378);
             this.dividerColor.Name = "dividerColor";
-            this.dividerColor.Size = new System.Drawing.Size(368, 5);
+            this.dividerColor.Size = new System.Drawing.Size(292, 2);
             this.dividerColor.TabIndex = 20;
             this.dividerColor.TabStop = false;
             // 
             // Clear
             // 
-            this.Clear.Location = new System.Drawing.Point(237, 446);
+            this.Clear.Location = new System.Drawing.Point(220, 446);
             this.Clear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(99, 40);
+            this.Clear.Size = new System.Drawing.Size(116, 40);
             this.Clear.TabIndex = 16;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = true;
@@ -245,10 +245,10 @@
             // 
             // Calculate
             // 
-            this.Calculate.Location = new System.Drawing.Point(237, 404);
+            this.Calculate.Location = new System.Drawing.Point(220, 403);
             this.Calculate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(99, 40);
+            this.Calculate.Size = new System.Drawing.Size(116, 40);
             this.Calculate.TabIndex = 15;
             this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
