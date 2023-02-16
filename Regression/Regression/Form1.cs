@@ -53,5 +53,10 @@ namespace Regression
             
             bfCount.Text = regressionMethod.CalculateRegression(age, weight, neck, abdomen, thigh, forearm, wrist).ToString();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

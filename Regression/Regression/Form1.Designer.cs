@@ -123,7 +123,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(84, 9);
+            this.label8.Location = new System.Drawing.Point(103, 37);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(180, 25);
             this.label8.TabIndex = 7;
@@ -203,18 +203,20 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(10, 328);
+            this.label9.Location = new System.Drawing.Point(79, 312);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(68, 20);
             this.label9.TabIndex = 17;
             this.label9.Text = "Body Fat:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // bfCount
             // 
             this.bfCount.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bfCount.Location = new System.Drawing.Point(84, 317);
+            this.bfCount.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bfCount.Location = new System.Drawing.Point(26, 339);
             this.bfCount.Name = "bfCount";
-            this.bfCount.Size = new System.Drawing.Size(136, 44);
+            this.bfCount.Size = new System.Drawing.Size(185, 48);
             this.bfCount.TabIndex = 18;
             this.bfCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
