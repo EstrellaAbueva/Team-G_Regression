@@ -15,7 +15,7 @@ A simple Multiple Regression using an existing data set on predicting a person's
 
 
 ## Sample Output
-![image](https://user-images.githubusercontent.com/95534475/219865308-04c7d3f1-5178-4e58-81fa-64d4c50a179c.png)
+![image](https://user-images.githubusercontent.com/95534475/219865408-fabdd670-28de-4f54-a5f8-bcd17765fa88.png)
 
 
 ## Contributors
